@@ -34,3 +34,13 @@ Things you may want to cover:
 - belongs_to :user
 - belongs_to :group
 
+## user テーブル
+|Column|Type|Options|
+|------|----|-------|
+|email|string|null: false|
+|password|string|null: false|
+|username|string|null: false|
+
+### Association
+- has_many :groups, through: :groups_users
+- has_many :messages
