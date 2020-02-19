@@ -26,8 +26,8 @@ Things you may want to cover:
 ## message テーブル
 |Column|Type|Options|
 |------|----|-------|
-|body|text|null: false|
-|image|string|null: false|
+|body|text||
+|image|string||
 |user-id|integer|null: false, foreign_key: true|
 |group-id|integer|null: false, foreign_key: true|
 ### Association
