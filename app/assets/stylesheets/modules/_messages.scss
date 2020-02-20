@@ -16,12 +16,63 @@
     display: block;
     height: 100px;
     background-color: #253141;
+    display: flex;
+    align-items: center;
+
+    &__top-items{
+      height: 20px;
+      width: 260px;
+      background-color: #253141;
+      line-height: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 20px;
+
+      &__name {
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+      }
+
+      &__icons {
+        width: 60px;
+        background-color: #253141;
+        text-align: right;
+          &__edit{
+            text-decoration: none;
+            color: #ffffff;
+          }
+          &__cog{
+            text-decoration: none;
+            color: #ffffff;
+          }
+      }
+    }
   }
 
   &__group-list {
     display: block;
     height: calc(100vh - 100px);
     background-color: #2f3e51;
+
+    .group-list-box{
+      height: 91px;
+      background-color: #2f3e51;
+      margin: 0 20px;
+      .show-group-box{
+        height: 15px;
+        color: #ffffff;
+        font-size: 15px;
+        padding-top: 20px;
+      }
+
+      .show-message-notice{
+        height: 11px;
+        font-size: 11px;
+        color: #ffffff;
+        padding-top: 20px;
+      }
+    }
   }
 }
 
@@ -33,6 +84,40 @@
     height: 100px;
     background-color: #ffffff;
     border-bottom: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    
+
+    .left-test-box{
+      padding-top: 35px;
+      padding-left: 40px;
+    }
+
+      .test-box{
+        font-size: 20px;
+      }
+
+      .message-box{
+        font-size: 12px;
+        padding-top: 15px;
+        color: #999999;
+      }
+
+      .right-edit-box{
+        padding-right: 40px;
+        padding-top: 28px;
+
+        .edit-btn{
+          width: 72px;
+          height: 40px;
+          .edit-sentence{
+            color: #38aef0;
+            line-height: 40px;
+            margin: 0 20px;
+            font-size: 16px;
+          }
+        }
+      }
   }
 
   &__message-list{
