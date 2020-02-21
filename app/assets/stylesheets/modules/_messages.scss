@@ -4,6 +4,7 @@
 
 :root{
   --side-paint: #253141;
+  --white-paint: #ffffff;
 }
 
 .wrapper{
@@ -33,7 +34,7 @@
 
       &__name {
         font-size: 16px;
-        color: white;
+        color: var(--white-paint);
         font-weight: bold;
       }
 
@@ -43,11 +44,11 @@
         text-align: right;
         &__edit{
           text-decoration: none;
-          color:#ffffff;
+          color: var(--white-paint);
         }
         &__cog{
           text-decoration: none;
-          color: #ffffff;
+          color: var(--white-paint);
         }
       }
     }
@@ -63,7 +64,7 @@
       margin: 0 20px;
       .show-group-box{
         height: 15px;
-        color: #ffffff;
+        color: var(--white-paint);
         font-size: 15px;
         padding-top: 20px;
       }
@@ -71,7 +72,7 @@
       .show-message-mail{
         height: 11px;
         font-size: 11px;
-        color: #ffffff;
+        color: var(--white-paint);
         padding-top: 20px;
       }
     }
@@ -83,7 +84,7 @@
       margin: 0 20px;
       .show-group-box2{
         height: 15px;
-        color: #ffffff;
+        color: var(--white-paint);
         font-size: 15px;
         padding-top: 20px;
       }
@@ -91,7 +92,7 @@
       .show-message-mail2{
         height: 11px;
         font-size: 11px;
-        color: #ffffff;
+        color: var(--white-paint);
         padding-top: 20px;
       }
     }
@@ -100,11 +101,11 @@
 
 .chat-main {
   width: calc(100vw - 300px);
-  background-color: #ffffff;
+  background-color: var(--white-paint);
 
   &__group-info{
     height: 100px;
-    background-color: #ffffff;
+    background-color: var(--white-paint);
     border-bottom: #eeeeee;
     display: flex;
     justify-content: space-between;
@@ -213,7 +214,7 @@
         width: 100%;
         position: relative;
         height: 50px;
-        background-color: white;
+        background-color: var(--white-paint);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -250,7 +251,7 @@
         background-color: #38aef0;
         font-size: 16px;
         cursor: pointer;
-        color: #ffffff;
+        color: var(--white-paint);
       }
     }
   }
