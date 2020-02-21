@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root{
+  --side-paint: #253141;
+}
+
 .wrapper{
   height: 100vh;
   width: 100vw;
@@ -10,19 +14,18 @@
 
 .side-bar{
   width: 300px;
-  background-color: #253141;
+  background-color: var(--side-paint);
 
   &__user-name {
-    display: block;
     height: 100px;
-    background-color: #253141;
+    background-color: var(--side-paint);
     display: flex;
     align-items: center;
 
     &__top-items{
       height: 20px;
       width: 260px;
-      background-color: #253141;
+      background-color: var(--side-paint);
       line-height: 20px;
       display: flex;
       justify-content: space-between;
@@ -40,7 +43,7 @@
         text-align: right;
         &__edit{
           text-decoration: none;
-          color: #ffffff;
+          color:#ffffff;
         }
         &__cog{
           text-decoration: none;
@@ -51,7 +54,6 @@
   }
 
   &__group-list {
-    display: block;
     height: calc(100vh - 100px);
     background-color: #2f3e51;
 
@@ -66,7 +68,7 @@
         padding-top: 20px;
       }
 
-      .show-message-notice{
+      .show-message-mail{
         height: 11px;
         font-size: 11px;
         color: #ffffff;
@@ -86,7 +88,7 @@
         padding-top: 20px;
       }
 
-      .show-message-notice2{
+      .show-message-mail2{
         height: 11px;
         font-size: 11px;
         color: #ffffff;
@@ -204,7 +206,7 @@
     background-color: #d2d2d2;
     padding: 20px 40px;
     
-    .new-message{
+    &__new-message{
       display: flex;
 
       .input-box{
@@ -228,7 +230,7 @@
             border-style: none;
           }
         }
-        
+
         .file-box{
           padding-right: 10px;
           .file{
