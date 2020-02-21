@@ -58,18 +58,18 @@
     height: calc(100vh - 100px);
     background-color: #2f3e51;
 
-    .group-list-box{
+    &__box{
       height: 91px;
       background-color: #2f3e51;
       margin: 0 20px;
-      .show-group-box{
+      &__show-group{
         height: 15px;
         color: var(--white-paint);
         font-size: 15px;
         padding-top: 20px;
       }
 
-      .show-message-mail{
+      &__message-mail{
         height: 11px;
         font-size: 11px;
         color: var(--white-paint);
@@ -78,18 +78,18 @@
     }
 
 
-    .group-list-box2{
+    &__box2{
       height: 91px;
       background-color: #2f3e51;
       margin: 0 20px;
-      .show-group-box2{
+      &__show-group2{
         height: 15px;
         color: var(--white-paint);
         font-size: 15px;
         padding-top: 20px;
       }
 
-      .show-message-mail2{
+      &__message-mail2{
         height: 11px;
         font-size: 11px;
         color: var(--white-paint);
