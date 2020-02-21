@@ -73,6 +73,26 @@
         padding-top: 20px;
       }
     }
+
+
+    .group-list-box2{
+      height: 91px;
+      background-color: #2f3e51;
+      margin: 0 20px;
+      .show-group-box2{
+        height: 15px;
+        color: #ffffff;
+        font-size: 15px;
+        padding-top: 20px;
+      }
+
+      .show-message-notice2{
+        height: 11px;
+        font-size: 11px;
+        color: #ffffff;
+        padding-top: 20px;
+      }
+    }
   }
 }
 
@@ -182,6 +202,56 @@
   &__message-form{
     height: 90px;
     background-color: #d2d2d2;
+    padding: 20px 40px;
+    
+    .new-message{
+      display: flex;
+
+      .input-box{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        .input-text-box{
+          width: 100%;
+          .input-text{
+            height: 50px;
+            width: 100%;
+            font-size: 16px;
+            padding-left: 10px;
+            color: #434a54;
+            border-style: none;
+          }
+        }
+        
+        .file-box{
+          padding-right: 10px;
+          .file{
+            cursor: pointer;
+            input{
+              display: none;
+            }
+          }
+        }
+        }
+      }
+      .submit-btn{
+        width: 100px;
+        height: 50px;
+        padding: 0 30px;
+        margin-left: 15px;
+        background-color: #38aef0;
+        font-size: 16px;
+        cursor: pointer;
+        color: #ffffff;
+      }
+    }
   }
-}
+
+
 
