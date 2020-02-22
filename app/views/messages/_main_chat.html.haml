@@ -31,9 +31,9 @@
     .chat-main__message-form__new-message
       %form.input-box
         .input-text-box
-          %input.input-text{:placeholder => "type a message", :type => "text"}/
+          %input.input-text{placeholder: "type a message", type: "text"}/
         .file-box
           %label{class: "file"}
             = icon('fas', 'image')
             %input{type: "file"}
-      %input.submit-btn{:name => "commit", :type => "submit", :value => "Send"}/
+      %input.submit-btn{name: "commit", type: "submit", value: "Send"}/
