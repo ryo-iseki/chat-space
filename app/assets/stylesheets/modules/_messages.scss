@@ -12,17 +12,14 @@
   width: 100vw;
   display: flex;
 }
-
 .side-bar{
   width: 300px;
   background-color: var(--side-paint);
-
   &__user-name {
     height: 100px;
     background-color: var(--side-paint);
     display: flex;
     align-items: center;
-
     &__top-items{
       height: 20px;
       width: 260px;
@@ -31,13 +28,11 @@
       display: flex;
       justify-content: space-between;
       margin: 0 20px;
-
       &__name {
         font-size: 16px;
         color: var(--white-paint);
         font-weight: bold;
       }
-
       &__icons {
         width: 60px;
         background-color: #253141;
@@ -53,11 +48,9 @@
       }
     }
   }
-
   &__group-list {
     height: calc(100vh - 100px);
     background-color: #2f3e51;
-
     &__box{
       height: 91px;
       background-color: #2f3e51;
@@ -68,7 +61,6 @@
         font-size: 15px;
         padding-top: 20px;
       }
-
       &__message-mail{
         height: 11px;
         font-size: 11px;
@@ -76,8 +68,6 @@
         padding-top: 20px;
       }
     }
-
-
     &__box2{
       height: 91px;
       background-color: #2f3e51;
@@ -88,7 +78,6 @@
         font-size: 15px;
         padding-top: 20px;
       }
-
       &__message-mail2{
         height: 11px;
         font-size: 11px;
@@ -98,34 +87,27 @@
     }
   }
 }
-
 .chat-main {
   width: calc(100vw - 300px);
   background-color: var(--white-paint);
-
   &__group-info{
     height: 100px;
     background-color: var(--white-paint);
     border-bottom: #eeeeee;
     display: flex;
     justify-content: space-between;
-    
-
     .left-test-box{
       padding-top: 35px;
       padding-left: 40px;
     }
-
       .test-box{
         font-size: 20px;
       }
-
       .message-box{
         font-size: 12px;
         padding-top: 15px;
         color: #999999;
       }
-
     .right-box{
       padding-right: 40px;
       padding-top: 28px;
@@ -146,7 +128,6 @@
       }
     }
   }
-
   &__message-list{
     height: calc(100vh - 190px);
     background-color: #fafafa;
@@ -160,23 +141,19 @@
           float: left;
           padding-right: 5px;
         }
-
         &__time{
           font-size: 12px;
           color: #999999;
         }
       }
-
       &__comment{
         padding-top: 12px;
         font-size: 14px;
         color: #434A54;
       }
     } 
-
     &__box2{
       &__file2{
-
         &__name2{
           padding-top: 46px;
           font-size: 16px;
@@ -184,32 +161,25 @@
           float: left;
           padding-right: 5px;
         }
-
         &__time2{
           padding-top: 46px;
           font-size: 12px;
           color: #999999;
         }
       }
-
       &__comment2{
         padding-top: 12px;
         font-size: 14px;
         color: #434A54;
       }
     } 
-
-
   }
-
   &__message-form{
     height: 90px;
     background-color: #d2d2d2;
     padding: 20px 40px;
-    
     &__new-message{
       display: flex;
-
       .input-box{
         width: 100%;
         position: relative;
@@ -241,8 +211,8 @@
             }
           }
         }
-        }
       }
+    }
       .submit-btn{
         width: 100px;
         height: 50px;
@@ -253,8 +223,8 @@
         cursor: pointer;
         color: var(--white-paint);
       }
-    }
   }
+}
 
 
 
