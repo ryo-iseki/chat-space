@@ -52,37 +52,22 @@
     height: calc(100vh - 100px);
     background-color: #2f3e51;
     &__box{
-      height: 91px;
-      background-color: #2f3e51;
-      margin: 0 20px;
-      &__show-group{
-        height: 15px;
-        color: var(--white-paint);
-        font-size: 15px;
-        padding-top: 20px;
-      }
-      &__message-mail{
-        height: 11px;
-        font-size: 11px;
-        color: var(--white-paint);
-        padding-top: 20px;
-      }
-    }
-    &__box2{
-      height: 91px;
-      background-color: #2f3e51;
-      margin: 0 20px;
-      &__show-group2{
-        height: 15px;
-        color: var(--white-paint);
-        font-size: 15px;
-        padding-top: 20px;
-      }
-      &__message-mail2{
-        height: 11px;
-        font-size: 11px;
-        color: var(--white-paint);
-        padding-top: 20px;
+      height: 71px;
+      padding-top: 20px;
+      margin: 0px 20px;
+      margin-bottom: 40px;
+      .group{
+        background-color: #2f3e51;
+        text-decoration: none;
+        &__name{ 
+          color: var(--white-paint);
+          font-size: 15px;
+        }
+        &__message{
+          font-size: 11px;
+          color: var(--white-paint);
+          padding-top: 5px;
+        }
       }
     }
   }
