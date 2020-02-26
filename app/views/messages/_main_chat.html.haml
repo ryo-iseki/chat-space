@@ -4,6 +4,7 @@
       .test-box
         = @group.name
       .message-box
+        Member:
         - @group.group_users.each do |group_user|
           = group_user.user.name
     .right-box
