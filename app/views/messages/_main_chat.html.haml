@@ -5,8 +5,8 @@
         = @group.name
       .message-box
         Member:
-        - @group.group_users.each do |group_user|
-          = group_user.user.name
+        - @group.users.each do |user|
+          = user.name
     .right-box
       = link_to edit_group_path(@group), class: 'right-box__link' do
         .right-box__link__edit
